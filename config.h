@@ -22,7 +22,7 @@
 /* #undef CRAY_STACKSEG_END */
 
 /* Defined if version of curl supports keepalive. */
-/* #undef CURL_HAS_KEEPALIVE */
+#define CURL_HAS_KEEPALIVE 1
 
 /* Define to 1 if using `alloca.c'. */
 /* #undef C_ALLOCA */
